@@ -1,0 +1,165 @@
+body {
+    background-color: #6fc8d5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.cont,
+.conts {
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    height: 80vh;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.main {
+    width: 330px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 25px;
+    background-color:  #006275;
+    border-radius: 10px;
+}
+
+.pic-column {
+    margin: 10px;
+    width: 285px;
+    height: 165px;
+    padding: 15px;
+    margin-top: 60px;
+    background-color: #006275;
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 60px;
+    height: 70px;
+}
+
+.one {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.two {
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #b5bfe0be;
+}
+
+h2 {
+    padding-bottom: 40px;
+}
+
+.para {
+    margin-top: 10px;
+}
+
+.name {
+    display: inline-block;
+}
+
+.name h5 {
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.free {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+/* -------------------second_form---------------------------- */
+.second_form {
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.loo {
+    margin-top: -30px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 90%;
+    height: 100px;
+}
+
+.loo p {
+    margin: 20px 0px 30px 10px;
+    color: #999898;
+}
+
+.radio {
+    width: 100%;
+    display: flex;
+}
+
+.radio1,
+.radio2 {
+    border: 1px solid #999898;
+    padding: 10px;
+    border-radius: 6px;
+    width: 265px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.radio2 {
+    margin-left: 23px;
+}
+
+.radio input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.third input {
+    border: 1px solid #999898;
+    padding: 10px;
+    border-radius: 6px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 1px solid #006275;
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    background-color: #006275;
+    color: white;
+}
+
+/* ------------------------------------------------ */
+
+.inputs {
+    margin-top: 40px;
+}
+
+.full {
+    border: 1px solid #999898;
+    padding: 10px;
+    border: radius 2%;
+}
